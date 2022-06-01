@@ -9,7 +9,7 @@ from googletrans import Translator
 root = tk.Tk()
 root.title('Dictionary')
 root.geometry('600x300')
-root['bg'] = 'white'
+root['bg'] = "white"
 frame = Frame(root,width=200,height=300,borderwidth=1,relief=RIDGE) 
 frame.grid(sticky="W") 
 def get_meaning():
